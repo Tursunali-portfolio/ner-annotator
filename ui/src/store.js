@@ -85,7 +85,11 @@ export default {
     ],
       inputSentences: [],
       annotations: [],
-      currentClass: {},
+      currentClass: {
+      color:"#eeff96",
+      id:1,
+      name:"LNAME"
+      },
     };
   },
   getters,

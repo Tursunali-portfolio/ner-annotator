@@ -10,29 +10,29 @@
           <span class="color-box" :style="{ backgroundColor: cl.color }"></span>
           {{ cl.name }}
         </a>
-        <a class="tag is-medium is-delete" @click="removeClass(cl.id)"></a>
+<!--        <a class="tag is-medium is-delete" @click="removeClass(cl.id)"></a> -->
       </div>
     </div>
 
-    <p class="control" v-if="showNewClassInput || classes.length === 0">
+<!--    <p class="control" v-if="showNewClassInput || classes.length === 0"> 
       <input
         type="text"
         class="input is-inline"
         v-model="newClassName"
         @keyup="onInputKeyup"
         placeholder="NER TAG"
-      />
+      /> 
       <button class="button is-info is-inline" @click="saveNewClass">
         Add
       </button>
-    </p>
+    </p>-->
 
     <p class="control">
-      <button class="button is-primary" @click="showNewClassInput = true">
+<!--      <button class="button is-primary" @click="showNewClassInput = true">
         <span class="icon">
           <font-awesome-icon class="fa-lg" icon="plus-square" />
         </span>
-      </button>
+      </button> -->
     </p>
   </div>
 </template>
